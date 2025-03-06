@@ -29,5 +29,13 @@
    <h1>Bem vindo ao meu site simples</h1>
    <!--criando o botão que mudará a cor de fundo da página --> 
    <button onclick="mudarCor()">mudar cor de fundo</button>
+   <script>
+       //função javasScript para mudar a cor de fundo da página*/  
+       function mudarCor(){
+        //gerar uma cor aleatória em formato hexadecimal
+        var corAleatoria = "#"+ Math.floor(math.random()*16777215).toString(16)
+        //aplica nova cor ao fundo da página
+        document.body.style.background = corAleatoria;
+       </script>
 </body>
 </html>
